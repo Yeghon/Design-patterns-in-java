@@ -40,6 +40,7 @@ class Composite implements Component
 		this.name = name;
 	}
 	
+	//add items into the components list
 	public void addComponent(Component com)
 	{
 		components.add(com);
